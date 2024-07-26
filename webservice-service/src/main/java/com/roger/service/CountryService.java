@@ -1,5 +1,6 @@
 package com.roger.service;
 
+import com.roger.webservice.Country;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
 
@@ -7,5 +8,5 @@ import jakarta.jws.WebService;
 public interface CountryService {
 
     @WebMethod
-    String getCountry(String name);
+    Country getCountry(String name);
 }
