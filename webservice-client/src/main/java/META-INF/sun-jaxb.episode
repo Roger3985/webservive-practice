@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+此檔案是由 Eclipse Implementation of JAXB, v4.0.5 所產生 
+請參閱 https://eclipse-ee4j.github.io/jaxb-ri 
+一旦重新編譯來源綱要, 對此檔案所做的任何修改都將會遺失. 
+產生時間: 2024.07.26 於 03:42:09 PM CST
+  -->
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://roger.com/webservice">
+    <schemaBindings map="false">
+      <package name="com.roger.webservice"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="com.roger.webservice.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="com.roger.webservice.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country" if-exists="true" auto-acknowledge="true">
+      <class ref="com.roger.webservice.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency" if-exists="true" auto-acknowledge="true">
+      <typesafeEnumClass ref="com.roger.webservice.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+

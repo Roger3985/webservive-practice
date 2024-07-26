@@ -20,7 +20,6 @@ public class CountryEndpoint {
     @Autowired
     private CountryRepository countryRepository;
 
-
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getCountryRequest")
     public @ResponsePayload
     GetCountryResponse getCountry(@RequestPayload GetCountryRequest request) {
