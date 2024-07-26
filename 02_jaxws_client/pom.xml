@@ -60,11 +60,34 @@
     </dependency>
 
     <!-- 日誌依賴 -->
+    <!-- SLF4J API -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>2.0.13</version>
+      <version>2.0.7</version>
     </dependency>
+
+    <!-- Log4j2 Core -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+
+    <!-- Log4j2 API -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+
+    <!-- Log4j2 SLF4J Binding -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j2-impl</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+
 
     <dependency>
       <groupId>junit</groupId>
