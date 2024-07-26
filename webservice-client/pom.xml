@@ -42,11 +42,11 @@
 			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
 
-		<!-- webservice client 依賴 (已經更新成 client5)-->
+		<!-- webservice client 依賴 -->
 		<dependency>
-			<groupId>org.apache.httpcomponents.client5</groupId>
-			<artifactId>httpclient5</artifactId>
-			<version>5.3.1</version>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version>
 		</dependency>
 
 		<!-- 這是Spring Web Services的核心模塊。它專門用於創建文檔驅動、契約優先的Web服務，並且與Spring框架的其他部分無縫集成。 -->
