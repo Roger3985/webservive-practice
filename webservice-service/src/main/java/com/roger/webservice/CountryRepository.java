@@ -24,7 +24,6 @@ public class CountryRepository {
         harryPotterI.setCurrency(Currency.EUR);
         harryPotterI.setPopulation(198555);
 
-
         countries.put(harryPotterI.getName(), harryPotterI);
     }
 
