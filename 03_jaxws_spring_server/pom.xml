@@ -73,11 +73,11 @@
     </dependency>
 
     <!-- 內置 jetty web 服務器 -->
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-transports-http-jetty</artifactId>
-      <version>4.0.5</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.apache.cxf</groupId>-->
+<!--      <artifactId>cxf-rt-transports-http-jetty</artifactId>-->
+<!--      <version>4.0.5</version>-->
+<!--    </dependency>-->
 
     <!-- 日誌依賴 -->
     <!-- SLF4J API -->

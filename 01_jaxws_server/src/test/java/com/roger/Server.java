@@ -21,6 +21,7 @@ public class Server {
 
         // 設置服務地址
         factoryBean.setAddress("http://localhost:8000/ws/hello");
+        // wsdl 訪問 url: http://localhost:8000/ws/hello?wsdl
 
         // 設置服務類
         factoryBean.setServiceBean(new HelloServiceImpl());
